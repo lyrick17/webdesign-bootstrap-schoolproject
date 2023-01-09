@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crispy Fries</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="img/websitelogo.ico">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="crispy-java.js"></script>
+    </head>
+	<body>
+        <!-- FIX FOOTER ICONS -->
+        <!-- FIX TEXT RESIZABLE -->
+        
+        <!--id="navbar" style="transition: top 0.2s;" -->
+        <nav class="navbar sticky-top navbar-expand-lg site-color-1">
+			<div class="container-fluid mx-sm-2 mt-1 mb-1 px-4">
+                <a href="#">
+                    <img src="img/websitelogo-2.png" alt="Crispy Fries Logo" class="img-fluid rounded" />
+                </a>
+                <div class="navbar-nav px-lg-4">
+                    <a href="#" class="text-decoration-none text-body">
+                        <h1 class="display-6 text-start title-font">
+                            Crispy Fries
+                        </h1>
+                    </a>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto text-center body-font fs-5">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <a href="#" class="nav-item nav-link">Order Now</a>
+                        <a href="#" class="nav-item nav-link">About Us</a>
+                        <a href="#" class="nav-item nav-link">Feedback</a>
+                    </div>
+                </div>
+            </div>
+		</nav>
+            <!-- 1st main division - SALE -->
+            <div class="container-fluid py-lg-5 py-4 mx-auto bg-wrap-pic3">
+                <div class="bg-content">
+                    <div class="px-lg-5 px-md-4">
+                        <div id="carouselBanners" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselBanners" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselBanners" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselBanners" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner px-lg-5">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="img/banner-christmas.png" alt="Merry Christmas! Free Stickers for every order this Christmas!" class="d-block img-fluid w-100 mx-auto"/>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/banner-newyear.png" alt="Happy New Year! Free vouchers to get free Regular Fries! Only Available on the 1st day of 2023! Avail a Voucher now!" class="d-block img-fluid w-100 mx-auto"/>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/banner-sale.png" alt="Sale 50% off only on Nov. 13 to Nov. 26, 2022. Order Now!" class="d-block img-fluid w-100 mx-auto"/>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanners" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanners" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="text-center m-3 pt-4">
+                        <a href="#" style="text-decoration: none;">
+                            <p class="d-inline btn site-color-2 
+                                    lead text-center text-body fw-bold fs-2 text-decoration-none 
+                                    p-md-3 p-1 mx-auto rounded">
+                                ORDER NOW
+                            </p>
+                        </a>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- 2nd main division - FEATURED PRODUCTS -->
+            <div class="container-fluid site-color-5 body-font text-center shadow py-3">
+                <div class="mx-lg-5 mx-md-4 mt-2">
+                    <div class="bg-white rounded mx-5 pt-3">
+                        <span class="display-6">Our Three Featured Products</span><br />
+                        <span>Do not miss them out!</span>
+                        <hr />
+                    </div>
+                    <div class="row gx-5 align-items-center mx-auto">
+                        <div class="col-md-4 order-md-1 order-2 col-12 my-1">
+                            <div class="card mx-auto product-img">
+                                <div class="card-header"><hr /></div>
+                                <img src="img/regularFries.jpg" alt="Regular Fries Product" class="card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Regular Fries</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 order-md-2 order-1 col-12 my-1">
+                            <div class="card mx-auto product-img">
+                                <div class="card-header site-color-4">
+                                    <span class="h4 fw-bold">
+                                        Our Bestseller
+                                    </span>
+                                </div>
+                                <img src="img/friesNDrink.jpg" alt="Fries N' Drink Product" class="card-img-top"/>
+                                <div class="card-body site-color-4">
+                                    <h5 class="card-title">Fries N' Drink</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 order-md-3 order-3 col-12 my-1">
+                            <div class="card mx-auto product-img">
+                                <div class="card-header"><hr /></div>
+                            <img src="img/dipFries.jpg" alt="Dip Fries Product" class=" card-img-top"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Dip Fries</h5>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid py-3">
+                        <p><a href="menu.html" class="btn site-color-2"> View Our Menu</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd main division - QUOTE -->
+            <div class="container-fluid p-sm-5 px-4 py-5">
+                <div class="row mx-auto">
+                    <div class="col-lg-6 px-sm-5 px-1 mx-auto">
+                        <h1 class="display-6 px-xl-3 pt-xl-3">The Most Delicious Fries of The Philippines in Every Street</h1> <br />
+                        <p class="body-font px-xl-3">
+                            11 years with the Filipinos, bringing joy and relaxation every busy days.
+                            With affordable prices, anyone can enjoy the tasty snacks you can bring alongside you wherever you go.
+                            We believe that offering low-cost but delicious snacks will bring smiles to the homes of the Filipinos.
+                            We hope to continue serving the Filipinos nationwide with our Crispy Fries!
+                        </p>
+                        <hr />
+                    </div>
+                    <div class="col-lg-6 text-center px-lg-2 px-1 mx-auto">
+                        <img src="img/eatfriestogether.jpg" alt="People eating fries" class="rounded shadow w-75"/>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- 4th main division - FEATURE -->
+            <div class="container-fluid bg-wrap-pic2 bg-fixed p-5 mx-auto">
+                <div class="bg-content bg-fixed justify-content-center">
+                    <div class="row mx-auto text-center">
+                        <div class="col-lg-3 col-md-6 p-3 text-light">
+                            <span class="fs-1 fw-bold">11</span> <br />
+                            <span class="fs-5 fw-bold">Years</span>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-3 text-light">
+                            <span class="fs-1 fw-bold">52</span> <br />
+                            <span class="fs-5 fw-bold">Branches Nationwide</span>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-3 text-light">  
+                            <span class="fs-1 fw-bold">13</span> <br />
+                            <span class="fs-5 fw-bold">Charities Donated</span>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-3 text-light">
+
+                            <span class="fs-1 fw-bold">7</span> <br />
+                            <span class="fs-5 fw-bold">Partners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5th main division About Us -->
+            <div class="container-fluid mx-auto p-4 site-color-3">
+                <div class="m-lg-4 text-center">
+                    <div class="">
+                        <!-- Carousels -->
+                        <!-- Start - Carousel for Large Screen -->
+                        <div id="carouselGallery" class="carousel slide carousel-dark text-center d-none d-lg-block"  data-bs-ride="carousel">
+                        
+                            <div class="carousel-inner py-lg-4">
+                                <!-- Single item -->
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic1.jpg" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic2.jfif" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic3.jpg" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single item -->
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic4.jpg" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic5.jpg" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic6.jpg" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single item -->
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic7.jpg" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic8.jpg" class="card-img-top" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 h-100">
+                                                <div class="card">
+                                                    <img src="img/gallery/pic9.jpg" class="card-img-top" alt="t" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Controls -->
+                            <div class="d-flex justify-content-center mb-4">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- End - Carousel for Large Screen -->
+
+                        <!-- Start - Carousel for Medium and Small Screen -->
+                        <div id="carouselGallerySmall" class="carousel slide carousel-dark text-center d-block d-lg-none w-50 mx-auto"  data-bs-ride="carousel">
+                            <div class="carousel-inner py-4">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic1.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic2.jfif" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic3.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic4.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic5.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic6.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic7.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic8.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="card">
+                                        <img src="img/gallery/pic9.jpg" class="card-img-top" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Controls -->
+                            <div class="d-flex justify-content-center mb-4">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallerySmall" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselGallerySmall" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- End - Carousel for Medium and Small Screen -->
+
+                        <div class="bg-white shadow-lg rounded mx-5">
+                            <div class="px-lg-5 py-lg-5 px-4 py-4">
+                                <div>
+                                    <span class="h1 heading-font">
+                                        Most Delicious made with Joy
+                                    </span>
+                                </div>
+                                <div class="px-lg-5 px-4 py-3">
+                                    We started as a small team 11 years ago with a vision of sharing our love for french fries. Realizing how
+                                    people sparked with happiness while eating thair favorite snacks inspired us to create a small team and start Crispy Fries.
+                                    We are delighted to continue this journey, providing the best snacks for everyone! Also, you can hope that we will
+                                    make better fries and provide better services to our customers.
+                                </div>
+                                <div class="text-center">
+                                    <a href="#" style="text-decoration: none;">
+                                        <p class="btn site-color-2 
+                                                lead text-center text-body text-decoration-none 
+                                                 mx-auto rounded">
+                                            Learn More About Us
+                                        </p>
+                                    </a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  main division --> <!-- ABOUT US -->
+
+		<footer class="site-color-1 text-center p-3">
+            <a href="https://www.facebook.com"><img src="img/icon-fb.png" alt="Facebook Icon" /></a>
+            <a href="https://www.twitter.com"><img src="img/icon-twitter.png" alt="Twitter Icon" /></a>
+            <a href="https://www.instagram.com"><img src="img/icon-ig.png" alt="Instagram Icon" /></a>
+            <a href="https://www.youtube.com"><img src="img/icon-yt.png" alt="Youtube Icon" /></a>
+            <a href="https://www.tiktok.com"><img src="img/icon-tiktok.png" alt="Tiktok Icon" /></a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid navbar-nav justify-content-center body-font">
+                    <a href="#" class="nav-item nav-link px-2">Terms and Conditions</a>
+                    <a href="#" class="nav-item nav-link px-2">Privacy Policy</a>
+                    <a href="#" class="nav-item nav-link px-2">About Us</a>
+                    <a href="#" class="nav-item nav-link px-2">Feedback</a>
+                </div>
+            </nav>
+            <p>© 2022 Crispy Fries, All Rights Reserved</p>
+        </footer>
+	</body>
+</html>
